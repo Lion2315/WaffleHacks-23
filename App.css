@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute children with equal spacing */
+
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 0 auto; /* Center the element horizontally */
+
+
+
+  
+}
+
+.TodoForm {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+ 
+.spacer {
+  margin-left: 50px; /* Adjust the value as per your desired spacing */
+}
+
+
+
+
+.Login {
+  text-align: center;
+  display:flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-image: linear-gradient(79deg, #763dde, #f6b2f6 48%, #f5d359);
+}
+
+.auth-form-container, .login-form, .register-form{
+  display: flex;
+  flex-direction:column;
+  
+
+}
+.auth-form-container{
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+
+}
+input
+{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(192, 235, 252);
+  
+}
+
+button{
+  border:#ba11ba;
+  background-color: rgb(192, 235, 252);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#763dde;
+
+}
+.link-btn{
+  background: none;
+  color:black;
+  text-decoration: underline;
+}
+
+.HomePage {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 3.5rem;
+  text-decoration: center;
+  margin-left: 90px;
+}
+
+h3{
+  background: #24244e;
+  margin-top: 5rem;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 0 auto; /* Center the element horizontally */
+  margin-bottom: 20px; /* Adjust the value as per your desired spacing */
+
+
+
+}
+
+h5{
+  background: #24244e;
+  size: 34px;
+  font-size: 20px;
+  margin-right: 23px;
+
+}
+
+.search-button2{
+  margin-right: 12px;
+}

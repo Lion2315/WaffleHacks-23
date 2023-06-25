@@ -1,0 +1,93 @@
+/* Hotels.css */
+.hotels-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+  }
+  
+  .hotels-header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 55px;
+
+  }
+  
+  .hotels-content {
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .hotel-results {
+    display: flex; /* Change to flex */
+    flex-wrap: wrap; /* Add flex-wrap property */
+    justify-content: space-between; /* Add justify-content property */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hotel-card {
+    width: calc(33.33% - -300px); /* Adjust width to fit three cards in a row with margin */
+    margin-left: 30px;
+    background-color: #29335c;
+    border: 1px solid #6d84e0;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex; /* Add display flex */
+  }
+  
+  .hotel-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .hotel-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .hotel-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .hotel-price {
+    font-size: 14px;
+  }
+  
+  .price-rate-low {
+    color: green;
+  }
+  
+  .price-rate-medium {
+    color: rgb(109, 66, 142);
+  }
+  
+  .price-rate-high {
+    color: rgb(196, 129, 231);
+  }
+  
+    
+  h4{
+    background: #5c5cc7;
+    border-radius: 7px;
+    margin-right: auto; /* Center the element horizontally */
+    margin-bottom: 20px; /* Adjust the value as per your desired spacing */
+    margin-left: 10px; /* Expand the margin to the left */
+    padding-right: 0%;
+   
+
+  }
+
+  .search-button{
+    margin-left: 54px;
+    margin-bottom: 30px;
+
+  }
